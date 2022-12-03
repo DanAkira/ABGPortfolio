@@ -84,3 +84,21 @@ More text, More text,More text
 More text, More text,More text
 
 More text, More text,More text
+
+
+    <script src="https://giscus.app/client.js"
+            data-repo="formulacraftone/giscus-comments"
+            data-repo-id="R_kgDOHvENWA"
+            data-category="Announcements"
+            data-category-id="DIC_kwDOHvENWM4CQgA9"
+            data-mapping="url"
+            data-strict=1
+            data-reactions-enabled=0
+            data-emit-metadata=0
+            data-input-position="top"
+            data-theme=light
+            data-lang=en
+            data-loading=eager
+            crossorigin=anonymous
+            async>
+    </script>
