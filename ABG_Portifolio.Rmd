@@ -1,0 +1,141 @@
+---
+title: "ABG Portifolio test"
+output:
+   html_document:
+    highlight: textmate
+    number_sections: no
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+runtime: shiny
+resource_files:
+- ABG_Port.Rproj
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(shiny)
+library(here)
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+library(plotly)
+library(glue)
+library(readr)
+library(ggplot2)
+library(dplyr)
+#library(png)
+#library(jpeg)
+#library(magick)
+```
+
+# Introduction
+
+## What is the Appleseed Community?
+
+```{r, warning = FALSE, message = FALSE, echo = FALSE}
+
+library(jpeg)
+
+jj <- readJPEG("Test_Banner.jpeg",native=TRUE)
+plot(0:1,0:1,type="n",ann=FALSE,axes=FALSE)
+rasterImage(jj,0,0,1,1)
+
+
+```
+
+This document is just a suggestion of portfolio basic design
+
+Who are we?
+
+What are FC1?
+
+&nbsp;
+&nbsp;
+  
+## What do we like to do?
+
+
+More text, More text,More text
+
+More text, More text,More text
+  
+More text, More text,More text
+
+More text, More text,More text
+
+&nbsp;
+&nbsp;
+
+# Big Projects
+
+Events
+
+Akina, Akagi, minigames, FC1, Offseason, etc.
+  
+
+## Akina
+
+Insert Image here
+Link for Akina, click down
+
+[Akina Video ](https://www.youtube.com/watch?v=moPjqLGlNQ8)
+
+
+&nbsp;
+&nbsp;
+
+# Team
+
+Who we are...
+
+## The CEOs
+
+### About Adam
+
+The founder
+
+Insert Image
+  
+More text, More text,More text
+
+More text, More text,More text
+
+### Akira
+
+HR Management 
+
+Insert Image
+  
+More text, More text,More text
+
+More text, More text,More text
+
+### Laser
+
+Coder Manager and a boat racer star
+
+Insert Image
+  
+More text, More text,More text
+
+More text, More text,More text
+
+
+## The Staff Members
+
+More text, More text,More text
+
+More text, More text,More text
+  
+More text, More text,More text
+
+More text, More text,More text
+
+
+
+
+
+
